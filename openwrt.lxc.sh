@@ -78,14 +78,14 @@ function settings_init() {
     
     if [[ ! -f ${Settings_File} ]]; then
 cat > ${Settings_File} <<-EOF
-Repository="roacn/openwrt"
+Repository="zh15933/OP-LXC"
 Tag_name="AutoUpdate-x86-lxc"
 Github_api="zzz_api"
 Priority="default"
-Lxc_id="100"
+Lxc_id="110"
 Lxc_hostname="OpenWrt"
-Lxc_cores="4"
-Lxc_memory="2048"
+Lxc_cores="2"
+Lxc_memory="1024"
 Lxc_rootfssize="2"
 Lxc_onboot="0"
 Lxc_order="1"
