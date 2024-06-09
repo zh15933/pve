@@ -22,13 +22,13 @@ Proxy_Secondary="https://ghproxy.net"
 CDN_Jsdelivr="https://cdn.jsdelivr.net/gh"
 Mirror_Fastgit="https://download.fastgit.org"
 
-URL_Version_Origin="https://raw.githubusercontent.com/roacn/pve/main/lxc/version"
+URL_Version_Origin="https://raw.githubusercontent.com/zh15933/pve/main/lxc/version"
 URL_Version_Primary="$Proxy_Primary/$URL_Version_Origin"
-URL_Version_Secondary="$CDN_Jsdelivr/roacn/pve/lxc/version"
+URL_Version_Secondary="$CDN_Jsdelivr/zh15933/pve/lxc/version"
 
-URL_Script_Origin="https://raw.githubusercontent.com/roacn/pve/main/openwrt.lxc.sh"
+URL_Script_Origin="https://raw.githubusercontent.com/zh15933/pve/main/openwrt.lxc.sh"
 URL_Script_Primary="$Proxy_Primary/$URL_Script_Origin"
-URL_Script_Secondary="$CDN_Jsdelivr/roacn/pve/openwrt.lxc.sh"
+URL_Script_Secondary="$CDN_Jsdelivr/zh15933/pve/openwrt.lxc.sh"
 
 
 function __error_msg() {
